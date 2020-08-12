@@ -1,4 +1,4 @@
-package org.example;
+package org.example.bigDataNerdExample;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 public class CallAnno {
     public static void main(String[] args) {
         try {
-            for (Method method : Class.forName("org.example.AnnoImplementation").getMethods()) {
+            for (Method method : Class.forName("org.example.bigDataNerdExample.AnnoImplementation").getMethods()) {
                 if (method.isAnnotationPresent(FirstAnnotation.class))     {
                     try {
                         System.out.println(method.getName()); // prints "callMe"

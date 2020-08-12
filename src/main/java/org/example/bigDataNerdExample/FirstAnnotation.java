@@ -1,4 +1,4 @@
-package org.example;
+package org.example.bigDataNerdExample;
 
 /* Source of example:
 https://bigdatanerd.wordpress.com/2011/09/19/hello-world-java-annotations/

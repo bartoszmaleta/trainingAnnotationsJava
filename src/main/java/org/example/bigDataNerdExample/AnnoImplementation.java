@@ -1,4 +1,4 @@
-package org.example;
+package org.example.bigDataNerdExample;
 
 public class AnnoImplementation {
     @FirstAnnotation
