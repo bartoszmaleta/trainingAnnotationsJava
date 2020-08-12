@@ -1,7 +1,7 @@
 package org.example.jenkovExample;
 
 @MyAnnotation
-public @interface BasicAnnotationExamples {
+public class BasicAnnotationExamples {
 
     @MyAnnotation
     private String name = "MyName";

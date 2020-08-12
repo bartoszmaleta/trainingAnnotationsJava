@@ -1,7 +1,11 @@
 package org.example.jenkovExample;
 
 //@CustomAnnotation(name = "BartoszM", count = 123, tags = {"code", "programming", "language"})   // with one default
-@CustomAnnotation()
+@CustomAnnotation
 public class CustomAnnotationExample {
 
+    @CustomAnnotation
+    public void doIt() {
+
+    }
 }
